@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation for Apps</title>
+    <link href="../assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="../assets/js/foundation.js"></script>
+    <script src="../assets/js/templates.js"></script>
+    <script src="../assets/js/routes.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/login.js"></script>
+  </head>
+  <body>  
+  
+  <img src="../images/peace_corps_logo.jpg" height="150" width="150" align="left">
+		<ul class="menu-bar primary">
+            
+                 <li><a href="#">Peace Corps Mobile Hub</a></li>
+	     </ul>    
+  <form>
+  <div class="grid-block">
+    <div class="grid-content">
+		<br></br>
+      <label>User Name
+        <input type="text" placeholder="User Name" id="username" />
+      </label>
+    </div>
+  </div>
+  <div class="grid-block">
+    <div class="grid-content large-offset-1">
+      <label>First Name
+        <input type="text" placeholder="First Name" id="firstname" />
+      </label>
+    </div>
+    <div class="grid-content large-offset-1">
+      <label>Last Name
+        <input type="text" placeholder="Last Name" id="lastname"/>
+      </label>
+    </div>
+	</div>
+    <div class="grid-block">
+      <div class="grid-content large-offset-1">
+        <label>Email ID</label>
+        <div class="large-4 columns">
+          <input type="text" placeholder="example@mail.com" id="email"/>
+        </div>
+        
+      </div>
+    </div>
+  
+  <div class="grid-block">
+    <div class="large-4 grid-content large-offset-1">
+      <label>Select Privilege
+        <select id="privilege">
+          <option value="Admin">Admin</option>
+          <option value="User">User</option>
+          <option value=" Volunteer ">Volunteer</option>	  
+        </select>
+      </label>
+    </div>
+  </div>
+  
+  <div class="grid-block">
+    <div class="large-4 grid-content large-offset-1">
+      <label>Select Your Country
+        <select id="country">
+          <option value="US">US</option>
+          <option value="England">England</option>
+          <option value=" India ">India</option>
+          <option value=" New Zealand">New Zealand</option>
+	  
+        </select>
+      </label>
+    </div>
+  </div>
+  
+  <div class="grid-block">
+    <div class="large-4 grid-content large-offset-1">
+      <label>Gender</label>
+      <input type="radio" name="gender" value="male" id="gendermale"><label for=" gendermale ">Male</label>
+      <input type="radio" name="gender" value="female" id="genderfemale"><label for=" genderfemale ">Female</label>
+    </div>
+
+  </div>
+  
+  <div class="grid-block">
+    <div class="large-4 grid-content large-offset-1">
+	<br></br>
+      <label>Address
+        <textarea id="address"></textarea>
+      </label>
+    </div>
+  </div>
+  
+	<div class="grid-block">
+	<div class="large-4 grid-content large-offset-1">
+	<label for="password">Password <small>required</small>
+	<input type="password" id="password" placeholder="Password" name="password" required></label>
+	
+	</div>
+	<div class="large-4 grid-content">
+	<label for="confirmPassword">Confirm Password <small>required</small>
+	<input type="password" id="confirmPassword" placeholder="Password" name="confirmPassword" required data-equalto="password"> </label>
+	
+    </div>
+</div>
+
+<br></br>
+<div class="grid-block">
+      <div class="large-4 grid-content large-offset-4">
+        <button type="submit" class="button expand" onclick = "enterdata()">Submit</button>
+      </div>
+</div>
+</form>
+
+  </body>
+</html>
+
+

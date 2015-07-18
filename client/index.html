@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html lang="en" ng-app="application">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zChat</title>
+    <link href="assets/css/app.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/routes.js"></script>
+    <script src="assets/js/angular.js"></script>
+    <script src="assets/js/login.js"></script>
+  </head>
+
+  <style>
+    .message-input, .message-input .inline-label, .menu-bar {margin-bottom: 0;}
+    #sidebar, .messages {border-right: 1px solid #eee;}
+    .message-side-bar {border-left: 1px solid #eee;}
+    .avatar-section {border-top: 1px solid #eee;}
+  </style>
+
+  <body>
+   
+
+          <img src="images/peace_corps_logo.jpg" height="150" width="150" align="left">
+      <img src="images/abi.png" height="150" width="150" align="right">
+		<ul class="menu-bar primary">
+            
+                 <li><a href="#">Peace Corps Mobile Hub</a></li>
+	     </ul>    
+        
+
+		
+<div class="large-3 large-centered columns">
+
+
+  
+  <div class="login-box">
+  <div class="row">
+  <div class="large-12 columns">
+  
+ 
+  
+    <form>
+       <div class="row">
+         <div class="large-12 columns">
+             <input type="text" name="username" placeholder="example@mail.com" id="username" />
+         </div>
+       </div>
+      <div class="row">
+         <div class="large-12 columns">
+             <input type="password" name="password" placeholder="Password" id="password"/>
+         </div>
+      </div>
+      <div class="row">
+        <div class="large-12 large-centered columns">
+          <input type="submit" class="button expand" value="Log In" onclick = "validate()"/>
+        </div>
+      </div>
+	   <div class="signup">
+	    <a href="templates/signup.html">Sign Up</a>
+	  </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+  </body>
+</html>
+
+
