@@ -24,8 +24,12 @@
         <div class="grid-content collapse shrink hide-for-medium">
           <a href="" class="secondary button expand" zf-close>Close</a>
         </div>
-        <img src="images/peace_corps_logo.jpg" height="150" width="150">
-        <div class="grid-content small-4 medium-3 ">
+        <div class="align-center grid-block small-2 medium-6 shrink">
+          <a href="pc1.html">
+          <img src="images/peace_corps_logo.jpg" height="150" width="150">
+          </a>
+        </div>
+        <div class="grid-content vertical">
 
           <section class="block-list">
             <header>People</header>
